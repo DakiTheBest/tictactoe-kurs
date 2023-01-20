@@ -4,8 +4,8 @@ body {
   font-family: sans-serif;
 }
 
-#active-game {
-    display: none;
+aside {
+  display: none;
 }
 
 header {
@@ -32,7 +32,7 @@ h1 {
   text-align: center;
   padding: 1rem;
   border-radius: 6px;
-  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 *.player-card {
@@ -40,25 +40,25 @@ h1 {
 }
 
 .player-card button {
-    background-color: rgb(241, 223, 255);
-    border-width: 0;
-    font-size: 1rem;
+  background-color: transparent;
+  border-width: 0;
+  font-size: 1rem;
 }
 
 .player-card button:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-h2 {
-    font-size: 2rem;
-    color: blueviolet;
-    margin: 1rem auto;
+h3 {
+  font-size: 2.5rem;
+  color: blueviolet;
+  margin: 1rem auto;
 }
 
 strong {
-    font-size: 3rem;
-    color: rgb(62, 30, 92);
+  font-size: 3rem;
+  color: rgb(62, 30, 92);
 }
 
 button#start {
