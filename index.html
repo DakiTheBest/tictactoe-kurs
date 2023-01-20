@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Play Tic Tac Toe</h1>
+      <p>Built with HTML, CSS, JavaScript, pain and suffering!</p>
+    </header>
+    <main>
+      <section id="game-config">
+        <ol class="player-cards">
+          <li class="player-card">
+            <p>Player 1</p>
+            <h2>Darko</h2>
+            <p><strong>X</strong></p>
+            <button>Edit</button>
+          </li>
+          <li class="player-card">
+            <p>Player 2</p>
+            <h2>Susus Amogus</h2>
+            <p><strong>O</strong></p>
+            <button>Edit</button>
+          </li>
+        </ol>
+        <button id="start">Start New Game</button>
+      </section>
+      <section id="active-game"></section>
+    </main>
+  </body>
 </html>

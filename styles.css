@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(251, 246, 255);
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#active-game {
+    display: none;
+}
+
+header {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 3rem;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+.player-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.player-card {
+  display: flex;
+  background-color: rgb(241, 223, 255);
+  width: 20rem;
+  margin: 4rem 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+*.player-card {
+  display: block;
+}
+
+.player-card button {
+    background-color: rgb(241, 223, 255);
+    border-width: 0;
+    font-size: 1rem;
+}
+
+.player-card button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2rem;
+    color: blueviolet;
+    margin: 1rem auto;
+}
+
+strong {
+    font-size: 3rem;
+    color: rgb(62, 30, 92);
+}
+
+button#start {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  width: 15rem;
+  padding: 1rem;
+  border-width: 0;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+button#start:hover {
+  cursor: pointer;
+  background-color: rgb(184, 107, 255);
+}
