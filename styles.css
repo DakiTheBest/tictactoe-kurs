@@ -4,10 +4,6 @@ body {
   font-family: sans-serif;
 }
 
-aside {
-  display: none;
-}
-
 header {
   background-color: blueviolet;
   text-align: center;
@@ -65,7 +61,7 @@ strong {
   color: rgb(62, 30, 92);
 }
 
-button#start {
+button#btn {
   display: flex;
   justify-content: center;
   font-size: 1.25rem;
