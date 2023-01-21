@@ -1,5 +1,0 @@
-- Configure player names
-- (Re)Start game
-- Turn-based
-- Fields
-- Game over
