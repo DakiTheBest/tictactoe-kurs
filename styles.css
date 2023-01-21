@@ -41,12 +41,16 @@ h1 {
 
 .player-card button {
   background-color: transparent;
-  border-width: 0;
+  border-color: transparent;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
+  transition: background-color, 0.2s ease, color 0.2s ease;
 }
 
 .player-card button:hover {
-  text-decoration: underline;
+  color: rgb(173, 67, 255);
+  background-color: rgb(215, 187, 247);
   cursor: pointer;
 }
 
