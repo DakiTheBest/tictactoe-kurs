@@ -79,6 +79,7 @@ function checkForGameOver() {
       return gameData[i][0];
     }
   }
+
   // Column check
   for (let i = 0; i <= 2; i++) {
     if (
@@ -90,6 +91,7 @@ function checkForGameOver() {
     }
   }
 
+  // Diagonal check
   if (
     gameData[2][0] > 0 &&
     gameData[2][0] === gameData[1][1] &&
