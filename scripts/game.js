@@ -100,6 +100,14 @@ function checkForGameOver() {
     return gameData[2][0];
   }
 
+  if (
+    gameData[0][0] > 0 &&
+    gameData[0][0] === gameData[1][1] &&
+    gameData[1][1] === gameData[2][2]
+  ) {
+    return gameData[0][0];
+  }
+
   if (currentRound === 9) {
     return -1;
   }
