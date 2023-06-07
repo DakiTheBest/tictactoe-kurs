@@ -38,7 +38,7 @@
 }
 
 #game-board li {
-  background-color: rgb(215, 187, 247);
+  background-color: rgb(187, 215, 247);
   border-radius: 2px;
   cursor: pointer;
   display: flex;
@@ -50,15 +50,15 @@
 }
 
 #game-board li:hover {
-  background-color: rgb(112, 13, 204);
+  background-color: rgb(13, 96, 204);
 }
 
 #game-board li.disabled {
-  background-color: rgb(112, 13, 204);
+  background-color: rgb(13, 128, 204);
   color: white;
   cursor: default;
 }
 
 .game-over li:hover {
-  background-color: rgb(215, 187, 247);
+  background-color: rgb(187, 218, 247);
 }
