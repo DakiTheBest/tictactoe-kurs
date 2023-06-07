@@ -3,7 +3,7 @@ function resetGameStatus() {
   activePlayer = 0;
   currentRound = 1;
   gameOverElement.firstElementChild.innerHTML =
-    'You won, <span id="winner-name">PLAYER NAME</span>!';
+    'Pobijedio si, <span id="winner-name">IME</span>!';
   gameOverElement.style.display = "none";
 
   let gameBoardIndex = 0;
@@ -20,7 +20,7 @@ function resetGameStatus() {
 
 function startNewGame() {
   if (players[0].name === "" || players[1].name === "") {
-    alert("Please set custom player names for both players!");
+    alert("Molim vas stavite imena za oba igrača!");
     return;
   }
 
@@ -49,7 +49,7 @@ function selectGameField(event) {
   const selectedRow = selectField.dataset.row - 1;
 
   if (gameData[selectedRow][selectedColumn] > 0) {
-    alert("Please select an empty field!");
+    alert("Molim vas izaberite prazno polje!");
     return;
   }
 
@@ -124,6 +124,6 @@ function endGame(winnerId) {
     gameOverElement.firstElementChild.firstElementChild.textContent =
       winnerName;
   } else {
-    gameOverElement.firstElementChild.textContent = "It's a draw!";
+    gameOverElement.firstElementChild.textContent = "Neriješeno!";
   }
 }

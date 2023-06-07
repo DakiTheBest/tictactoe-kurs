@@ -20,7 +20,7 @@ function savePlayerConfig(event) {
   if (!enteredPlayername) {
     // enteredPlayername === ''
     event.target.firstElementChild.classList.add("error");
-    errorsOutputElement.textContent = "Please enter a valid name!";
+    errorsOutputElement.textContent = "Molim vas unesite prihvaljivo ime!";
     return;
   }
 
